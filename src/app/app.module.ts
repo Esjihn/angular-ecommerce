@@ -10,10 +10,10 @@ import { ProductService } from './services/product.service';
   declarations: [
     AppComponent,
     ProductsListComponent,
-    HttpClientModule
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [ProductService], // inject (Injectable) into other parts of our application.
   bootstrap: [AppComponent]
