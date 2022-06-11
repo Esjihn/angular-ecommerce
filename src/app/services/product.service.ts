@@ -6,6 +6,7 @@ import { Product } from '../common/product';
 @Injectable({
   providedIn: 'root'
 })
+// p
 export class ProductService {
 
   private baseUrl = 'http://localhost:8080/api/products';
